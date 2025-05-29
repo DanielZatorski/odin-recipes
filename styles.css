@@ -103,3 +103,34 @@ a:visited {
   opacity: 1;
   right: 0;
 }
+
+
+
+.button-spread {
+  /* same styles as .button */
+  display: inline-block;
+  border-radius: 20px;
+  background-color: bisque;
+  border: none;
+  color: #000000;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  width: 800px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-family: 'Uncial Antiqua', serif;
+}
+
+.button-spread span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  letter-spacing: 0px; /* start with normal spacing */
+}
+
+.button-spread:hover span {
+  letter-spacing: 8px; /* spread letters on hover */
+}
