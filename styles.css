@@ -4,6 +4,13 @@ font-family: 'Uncial Antiqua', serif;
 
 }
 
+body, html {
+margin-left:15%;
+margin-right:15%;
+margin-bottom:1%;
+margin-top:1%;
+}
+
 .header {
     text-align: center;
     background: bisque;
@@ -105,7 +112,6 @@ a:visited {
 }
 
 
-
 .button-spread {
   /* same styles as .button */
   display: inline-block;
@@ -133,4 +139,9 @@ a:visited {
 
 .button-spread:hover span {
   letter-spacing: 8px; /* spread letters on hover */
+}
+
+.runeallignment{
+
+    text-align: center;
 }
